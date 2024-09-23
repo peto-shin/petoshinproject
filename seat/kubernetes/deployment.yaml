@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: seat
-          image: "username/seat:latest"
+          image: "or50611/seat:v1"
           ports:
             - containerPort: 8080
           readinessProbe:
