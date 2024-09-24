@@ -6,6 +6,9 @@
 클라우드 아키텍처 구성, MSA 아키텍처 구성도
 ```
 
+
+
+
 ## 클라우드 네이티브 모델링 (Biz.)
 ### Data Modeling/서비스 분리/설계 역량
 ```
@@ -17,6 +20,10 @@
 - 3. 처리 결과에 따라 예약완료 및 취소된다.
 
     ![stoming](https://github.com/user-attachments/assets/6d32f633-074e-45fe-9096-5cd3a6551bf2)
+
+
+
+
 
 ## 클라우드 네이티브 개발 MSA (Dev.)
 ### MSA 개발 또는 개발관리 역량
@@ -38,15 +45,28 @@
 - 주문한 수량만큼 감소한 것을 확인한다                                                        
     -![saga_3](https://github.com/user-attachments/assets/6bc40d16-d973-42ec-9290-ce5c0c35e018)
 
+
+
+
+
 ```
 보상처리 - Compensation
 ```
+
+
+
+
 
 ```
 단일 진입점 - Gateway
 ```
 - 각 서비스를 실행하고 gateway를 연결점으로 외부IP가 생성된것을 확인한다.                                              
     ![게이트웨이](https://github.com/user-attachments/assets/19c7f55f-f2fc-499e-8175-6e9d889736bb)
+
+
+
+
+
 
 ```
 분산 데이터 프로젝션 CQRS
@@ -60,6 +80,11 @@
 
 - docker build를 통해 각 서비스들을 docker hub에 저장하여 관리한다.
     ![container](https://github.com/user-attachments/assets/a0b5877c-bf2d-4cf0-8eaa-4df19059fc3f)
+
+
+
+
+
 
 ### 컨테이너 인프라 설계 및 구성 역량
 ```
@@ -75,6 +100,11 @@
 - kubectl get hpa 명령어로 CPU 값이 늘어난 것을 확인 한다.            
     ![오토스케일_3](https://github.com/user-attachments/assets/9b0babe6-f3b8-47ad-840f-04ce74ccccd3)
 
+
+
+
+
+
 ```
 컨테이너로부터 환경분리 - Secret
 ```
@@ -87,6 +117,10 @@
 
 - 클러스터에 재배포 후 정상 기동 확인한다.
     ![secret_3](https://github.com/user-attachments/assets/845c8be3-937f-49a1-a48f-e3a963bdb38d)
+
+
+
+
 
 
 ```
@@ -104,6 +138,11 @@
 
     ![pvc_4](https://github.com/user-attachments/assets/5939dd6c-e45a-435f-b630-95dfcbc1656a)
 
+
+
+
+
+
 ```
 셀프힐링 - Liveness
 ```
@@ -117,6 +156,11 @@
 - 3.Normal Started - Started container order < 자동으로 컨테이너가 성공적으로 시작됨.
     ![liveness_2](https://github.com/user-attachments/assets/ff00f327-e726-4eaf-97ef-510b00530aec)
 
+
+
+
+
+
 ```
 서비스 메쉬 응용 - Mesh
 ```
@@ -127,6 +171,11 @@
 
 - 각 서비스의 정상 실행 확인.
     ![mesh_2](https://github.com/user-attachments/assets/3021cb34-397d-4a9b-9d5f-a16ed6d93dc0)
+
+
+
+
+
 
 ```
 통합 모니터링 - Monitoring
