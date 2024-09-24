@@ -1,6 +1,6 @@
 # 
 
-## Model
+## 클라우드 네이티브 아키텍처(IaaS)
 www.msaez.io/#/182458712/storming/petoshinproject
 
 ![stoming](https://github.com/user-attachments/assets/6d32f633-074e-45fe-9096-5cd3a6551bf2)
