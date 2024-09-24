@@ -3,6 +3,8 @@
 ## Model
 www.msaez.io/#/182458712/storming/petoshinproject
 
+![stoming](https://github.com/user-attachments/assets/6d32f633-074e-45fe-9096-5cd3a6551bf2)
+
 ## Before Running Services
 ### Make sure there is a Kafka server running
 ```
