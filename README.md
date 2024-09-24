@@ -29,7 +29,7 @@
     
 
 - 좌석 5개를 생성한다
-    ![saga_1](https://github.com/user-attachments/assets/d5c4ceef-34e8-4e71-8f3e-d1cd0e836b20)
+  ![saga_1](https://github.com/user-attachments/assets/d5c4ceef-34e8-4e71-8f3e-d1cd0e836b20)
     
 
 - 분산트랜잭션을 위해 각 시스템을 기동시켜준다.
