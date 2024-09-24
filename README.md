@@ -32,7 +32,46 @@
 ### 클라우드 배포 역량
 - 클라우드 배포 - Container 운영
 
-  
+![container](https://github.com/user-attachments/assets/a0b5877c-bf2d-4cf0-8eaa-4df19059fc3f)
+
+### 컨테이너 인프라 설계 및 구성 역량
+- 컨테이너 자동확장 - HPA(AutoScaling)
+
+![오토스케일_1](https://github.com/user-attachments/assets/77f9d558-cff3-4385-b53c-e907efad9b41)
+![오토스케일_2](https://github.com/user-attachments/assets/e84db82b-5008-4be0-a122-b3c72b5ca40f)
+![오토스케일_3](https://github.com/user-attachments/assets/9b0babe6-f3b8-47ad-840f-04ce74ccccd3)
+
+- 컨테이너로부터 환경분리 - Secret
+
+![secret_1](https://github.com/user-attachments/assets/f6f81076-5536-44cf-8c80-3e768fb8c232)
+![secret_2](https://github.com/user-attachments/assets/c03c5357-1646-4e67-97fc-977f85383327)
+![secret_3](https://github.com/user-attachments/assets/845c8be3-937f-49a1-a48f-e3a963bdb38d)
+
+- 클라우드스토리지 활용 - PVC
+
+![pvc_1](https://github.com/user-attachments/assets/096a6e7e-a244-4090-8307-247bc8eb37a1)
+![pvc_2](https://github.com/user-attachments/assets/0c4e102b-2c5c-42e9-a10b-abd909dd6718)
+![pvc_3](https://github.com/user-attachments/assets/95299078-56a1-4542-8b64-574cf96bbd61)
+![pvc_4](https://github.com/user-attachments/assets/5939dd6c-e45a-435f-b630-95dfcbc1656a)
+
+- 셀프힐링 - Liveness
+
+![liveness_1](https://github.com/user-attachments/assets/c5e253bb-4f99-4a5e-a7ab-1329bb7aec28)
+![liveness_2](https://github.com/user-attachments/assets/ff00f327-e726-4eaf-97ef-510b00530aec)
+![liveness_3](https://github.com/user-attachments/assets/783ab825-7595-4be9-945d-4769c20b319f)
+
+- 서비스 메쉬 응용 - Mesh
+
+![mesh_1](https://github.com/user-attachments/assets/e791a988-799f-4c15-a944-3a74c4801136)
+![mesh_2](https://github.com/user-attachments/assets/3021cb34-397d-4a9b-9d5f-a16ed6d93dc0)
+
+- 통합 모니터링 - Monitoring
+
+![모니터링_1](https://github.com/user-attachments/assets/bba850fd-47e6-4dd0-800f-5c607714ceba)
+![모니터링_2](https://github.com/user-attachments/assets/805d2ef4-4547-4b63-85a7-e77e3f28ff83)
+![모니터링_3](https://github.com/user-attachments/assets/5d04ddd1-e1c4-43b1-ae5a-e43aee542709)
+![모니터링_4](https://github.com/user-attachments/assets/027e3b5e-6f46-4bfc-8e34-e95848a97855)
+
 ## Before Running Services
 ### Make sure there is a Kafka server running
 ```
