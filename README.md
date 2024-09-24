@@ -25,26 +25,27 @@
 ```
 
 - 분산트랜잭션을 위해 각 시스템을 기동시켜준다.
-![saga_0](https://github.com/user-attachments/assets/48a26fa4-b888-48ad-a71f-f0612e949fa9)
+    ![saga_0](https://github.com/user-attachments/assets/48a26fa4-b888-48ad-a71f-f0612e949fa9)
 
 
 - 좌석 5개를 생성한다                                                                    
-![saga_1](https://github.com/user-attachments/assets/d5c4ceef-34e8-4e71-8f3e-d1cd0e836b20)
+    ![saga_1](https://github.com/user-attachments/assets/d5c4ceef-34e8-4e71-8f3e-d1cd0e836b20)
     
 
-- 분산트랜잭션을 위해 각 시스템을 기동시켜준다.
-
+- 좌석 3개를 주문한다                                                        
     -![saga_2](https://github.com/user-attachments/assets/6bca75b7-77ab-426a-849c-fe45e6dbb7b9)
 
+- 주문한 수량만큼 감소한 것을 확인한다                                                        
     -![saga_3](https://github.com/user-attachments/assets/6bc40d16-d973-42ec-9290-ce5c0c35e018)
 
 ```
 보상처리 - Compensation
 ```
+
 ```
 단일 진입점 - Gateway
 ```
-- 
+- 각 서비스를 실행하고 gateway 외부IP를 통하여 접속이 되는것을 확인한다.                                             
     ![게이트웨이](https://github.com/user-attachments/assets/19c7f55f-f2fc-499e-8175-6e9d889736bb)
 
 ```
