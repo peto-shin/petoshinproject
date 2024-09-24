@@ -20,19 +20,18 @@
 ### MSA 개발 또는 개발관리 역량
 - 분산트랜잭션 - Saga
 
-```
-분산트랜잭션을 위해 각 시스템을 기동시켜준다.
-```
-    -![saga_0](https://github.com/user-attachments/assets/48a26fa4-b888-48ad-a71f-f0612e949fa9)
+
+    분산트랜잭션을 위해 각 시스템을 기동시켜준다.
+
+    ![saga_0](https://github.com/user-attachments/assets/48a26fa4-b888-48ad-a71f-f0612e949fa9)
     
-```
-좌석 5개를 생성한다
-```
-    -![saga_1](https://github.com/user-attachments/assets/d5c4ceef-34e8-4e71-8f3e-d1cd0e836b20)
+
+    좌석 5개를 생성한다
+    ![saga_1](https://github.com/user-attachments/assets/d5c4ceef-34e8-4e71-8f3e-d1cd0e836b20)
     
-```
-분산트랜잭션을 위해 각 시스템을 기동시켜준다.
-```
+
+    분산트랜잭션을 위해 각 시스템을 기동시켜준다.
+
     -![saga_2](https://github.com/user-attachments/assets/6bca75b7-77ab-426a-849c-fe45e6dbb7b9)
 
     -![saga_3](https://github.com/user-attachments/assets/6bc40d16-d973-42ec-9290-ce5c0c35e018)
